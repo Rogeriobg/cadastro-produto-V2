@@ -60,3 +60,13 @@ Categoria: Periféricos
 Quantidade em Estoque: 50
 Preço Unitário: R$ 159.90
 Valor Total em Estoque: R$ 7995.00
+
+## Esse desafio te ajudará a praticar:
+
+Entrada de dados no terminal.
+
+Uso de tipos de variáveis apropriados (int, double, String).
+
+Concatenar e formatar mensagens no console.
+
+Realizar cálculos e exibir o resultado de forma clara.
