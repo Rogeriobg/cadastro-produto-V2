@@ -1,18 +1,62 @@
-## Getting Started
+## Desafio: Cadastro de Produto no Estoque
+Descrição
+Crie um programa em Java que permita ao usuário cadastrar produtos em um estoque. O programa deve solicitar ao usuário as seguintes informações:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Código do Produto (inteiro)
 
-## Folder Structure
+Nome do Produto (String)
 
-The workspace contains two folders by default, where:
+Categoria (String)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Quantidade em Estoque (inteiro)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Preço Unitário (decimal)
+## Após coletar essas informações, o sistema deve exibir a seguinte mensagem formatada:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+kotlin
+Copiar
+Editar
+Produto cadastrado com sucesso!
+Código: [Código do Produto]
+Nome: [Nome do Produto]
+Categoria: [Categoria]
+Quantidade em Estoque: [Quantidade em Estoque]
+Preço Unitário: R$ [Preço Unitário]
+Valor Total em Estoque: R$ [Quantidade * Preço Unitário]
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Requisitos
+O programa deve utilizar a classe Scanner para entrada de dados.
+
+Deve-se utilizar variáveis apropriadas para armazenar os dados.
+
+O valor total em estoque deve ser calculado multiplicando a quantidade pelo preço unitário.
+
+O resultado deve ser exibido formatado.
+
+## Exemplo de Saída no Console
+plaintext
+Copiar
+Editar
+Por favor, digite o código do produto:
+101
+
+Por favor, digite o nome do produto:
+Teclado Mecânico
+
+Por favor, digite a categoria do produto:
+Periféricos
+
+Por favor, digite a quantidade em estoque:
+50
+
+Por favor, digite o preço unitário:
+159.90
+
+Produto cadastrado com sucesso!
+Código: 101
+Nome: Teclado Mecânico
+Categoria: Periféricos
+Quantidade em Estoque: 50
+Preço Unitário: R$ 159.90
+Valor Total em Estoque: R$ 7995.00
