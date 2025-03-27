@@ -13,15 +13,12 @@ Quantidade em Estoque (inteiro)
 Preço Unitário (decimal)
 ## Após coletar essas informações, o sistema deve exibir a seguinte mensagem formatada:
 
-kotlin
-Copiar
-Editar
-Produto cadastrado com sucesso!
-Código: [Código do Produto]
-Nome: [Nome do Produto]
-Categoria: [Categoria]
-Quantidade em Estoque: [Quantidade em Estoque]
-Preço Unitário: R$ [Preço Unitário]
+Produto cadastrado com sucesso! <br>
+Código: [Código do Produto] <br>
+Nome: [Nome do Produto] <br>
+Categoria: [Categoria] <br>
+Quantidade em Estoque: [Quantidade em Estoque]<br>
+Preço Unitário: R$ [Preço Unitário]<br>
 Valor Total em Estoque: R$ [Quantidade * Preço Unitário]
 
 
@@ -35,9 +32,7 @@ O valor total em estoque deve ser calculado multiplicando a quantidade pelo pre�
 O resultado deve ser exibido formatado.
 
 ## Exemplo de Saída no Console
-plaintext
-Copiar
-Editar
+
 Por favor, digite o código do produto:
 101
 
